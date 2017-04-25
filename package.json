@@ -1,0 +1,34 @@
+{
+  "name": "react-like-button",
+  "version": "0.0.0",
+  "description": "* [React](https://facebook.github.io/react/)に入門してみます。 * [「いいねボタン」作成チュートリアル](http://c16e.com/1510161700/)を参考に作成していきます。 * つまったことや、気づいたことなど、```README.md```に残していきます。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/* && webpack",
+    "watch": "rm -rf dist/* && webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuminya/react-like-button.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "FuminaMIYAHARA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuminya/react-like-button/issues"
+  },
+  "homepage": "https://github.com/fuminya/react-like-button#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
