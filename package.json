@@ -6,7 +6,7 @@
   "scripts": {
     "product": "webpack -p",
     "build": "webpack -d",
-    "watch-no-good": "webpack-dev-server",
+    "start": "webpack-dev-server",
     "watch": "webpack -d --watch",
     "clean": "rm -rf dist/*",
     "test": "echo \"Error: no test specified\" && exit 2"
